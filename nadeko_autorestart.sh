@@ -10,6 +10,7 @@ fi
 
 cd NadekoBot/src/NadekoBot
 echo "Running NadekoBot with auto restart Please wait."
+curl http://google.com
 while :; do dotnet run -c Release; sleep 5s; done
 echo "Done"
 
